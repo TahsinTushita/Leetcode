@@ -1,7 +1,7 @@
 if __name__ == '__main__':
-    nums = [3,2,4]
+    nums = [5,4,1,7]
     result = []
-    target = 6
+    target = 8
     start = 0
     end = len(nums)
     flag = 0
@@ -13,6 +13,7 @@ if __name__ == '__main__':
             if(nums[start] + nums[start2] == target):
                 result.append(start)
                 result.append(start2)
+                flag = 1
             if(flag != 0):
                 break
             start2 = start2 + 1

@@ -112,7 +112,7 @@ It gives us the maximum number of operations needed to run a program.
 
 These are some of the most common time complexities.
 
-![Time Complexity](../assets/Time Complexity.png "Time Complexity")
+![Time Complexity](../assets/time_complexity.png "Time Complexity")
 
 #### Why is looping over range() faster than while loop in python
 This happens because for running a while loop, the python byte code does 10 operations but for running a for loop in range, it does only 3 operations. 

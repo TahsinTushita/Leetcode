@@ -1,14 +1,34 @@
 # Class 4
 
-- Linked list
-- Difference between is and equal
-- Linked list insertion
-- HW - linked list insertion at last
-- design functions for LinkedList class -
-    - def insert(Self,data)
-    - def search(self,data)
-    - def delete(self,data)
-    - def length(self,data)
+## Linked List
+
+Linked list is a data structure where all the elements of a list
+are linked. Each element has a reference of the memory address of
+its following element or its previous element or both.
+
+- **Singly Linked list** - Singly linked lists are lists where each 
+element has a single pointer **next** that points to the next
+element.
+
+  ![Singly Linked List](../assets/singly_linked_list.png "Singly Linked List")
+
+- **Doubly Linked list** - Doubly linked list elements contain an
+extra **prev** pointer that points to the previous element of an 
+element.
+
+  ![Doubly Linked List](../assets/doubly_linked_list.png "Doubly Linked List")
+
+### Difference between "is" and "==" operator in python
+
+"is" and "==" both are used for comparison purposes in python.
+**"=="** compares the values of the objects where **"is"** compares 
+whether both the objects have the same memory address.
+
+### Usage of Linked lists in real life
+
+- used in Kubernetes for packet matching
+- used in Firewall
+- used in caching layer of phones, web servers
 
 ### Class lectures
 
